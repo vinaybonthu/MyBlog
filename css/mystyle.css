@@ -1,0 +1,244 @@
+
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #75859c;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	line-height: 1.7em; 
+	background-color: #203048;
+	background-position: top center;
+	background-repeat: no-repeat
+}
+
+a, a:link, a:visited { 
+	color: #bac4d3; 
+	font-weight: 700; 
+	text-decoration: none; 
+	font-size: 11px; 
+}
+
+a:hover { 
+	text-decoration: underline; 
+}
+
+
+p { margin: 0 0 10px 0; padding: 0; }
+img { border: none; }
+blockquote { font-style: italic; margin: 0 0 0 10px;}
+cite { font-weight: bold; color:#bac4d3; }
+cite span { color: #bac4d3; }
+em { color: #d7dfec; font-weight: 400 }
+
+h1, h2, h3, h4, h5, h6 { color: #fff; font-weight: normal; }
+h1 { font-size: 34px; margin: 0 0 20px; padding: 5px 0 }
+h2 { font-size: 28px; margin: 0 0 20px; padding: 5px 0 10px; font-weight: 400; background: url(../images/header.jpg) bottom repeat-x }
+h3 { font-size: 20px; margin: 0 0 15px; padding: 5px 0 10px; font-weight: 400; background: url(../images/header.jpg) bottom repeat-x }
+h4 { font-size: 18px; margin: 0 0 15px; padding: 5px 0 10px; font-weight: 400; background: url(../images/header.jpg) bottom repeat-x }
+h5 { font-size: 16px; margin: 0 0 10px; padding: 0; }
+h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
+
+.cleaner { clear: both }
+
+
+.float_l { float: left; }
+.float_r { float: right; }
+
+.image_wrapper { 
+	display: inline-block; 
+	border: 1px solid #314460; 
+	padding: 6px; 
+	background: #131e2e; 
+	margin-bottom: 5px; 
+}
+
+
+
+
+#top_wrapper {
+	width: 800px;
+	margin: 0 auto;
+	
+}
+
+#top_header {
+	width: 800px;
+	height: 175px;
+	background: url(../images/header.jpg) no-repeat top center
+}
+
+#social_media {
+	width: 800px;
+	height: 24px;
+	padding: 8px 0;
+	text-align: right
+}
+
+#social_media a { 
+	display: inline-block; 
+	padding-left: 30px; 
+	margin-left: 50px; 
+}
+
+#social_media a.facebook { 
+	background: url(../images/facebook.png) no-repeat left center; 
+}
+
+#social_media a.twitter { 
+	background: url(../images/twitter.png) no-repeat left center; 
+}
+
+#social_media a.instagram { 
+	background: url(../images/instagram.png) no-repeat left center; 
+}
+
+
+
+#menu { 
+	clear: both; 
+	width: 780px; 
+	height: 50px; 
+	padding: 0 10px; 
+	background: url(../images/menubar.png); 
+}
+
+#menu ul { 
+	width: 600px; 
+	padding: 0; 
+	margin: 0 auto; 
+	list-style: none; 
+}
+
+#menu ul li { 
+	margin: 0; 
+	padding: 0; 
+}
+
+#menu ul li a {
+	float: left;
+	display: block;
+	width: 120px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	color: #7591ba;	
+	text-align: center;
+	text-decoration: none;
+	font-weight: 400;
+	outline: none;
+}
+
+#menu ul li a:hover, #menu ul .current {
+	color: #fff;
+	background: url(../images/menu_hover.png)
+}
+
+
+#main {
+	clear: both;
+	width: 800px;
+}
+
+.content_box {
+	clear: both;
+	padding: 30px;
+	margin-bottom: 30px; 
+	background: url(../images/contentbg.jpg) center bottom no-repeat
+}
+
+.contact_box {
+	clear: both;
+	padding: 30px;
+	margin-bottom: 30px; 
+	background: url(../images/contentbg.jpg) center bottom no-repeat
+}
+
+.col_w340 { width: 340px }
+.col_w220 { width: 220px; float: left; }
+.col_mr30 { margin-right: 30px }
+
+
+#footer {
+	clear: both;
+	width: 760px;
+	padding: 0 20px 20px;
+	text-align: center;
+	color: #e5efc8;
+}
+
+#footer a {
+	color: #fff;
+}
+
+.container {
+	width: 100%;
+	background-color: rgb(231, 231, 231);
+	border-radius: 20px;
+ }
+ .cpp, .ml, .python, .c {
+	text-align: center;
+	font-weight: bolder;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color: white;
+	border-radius: 20px;
+ }
+ .cpp {
+	width: 90%;
+	background-color: #6fb9f5;
+ }
+ .ml {
+	width: 80%;
+	background-color: #6fb9f5;
+ }
+ .python {
+	width: 90%;
+	background-color: #6fb9f5;
+ }
+ .c {
+	width: 90%;
+	background-color: #6fb9f5;
+ }
+ .image_icon { 
+	margin-bottom: 5px; 
+	width:40%;
+	height:40%;
+}
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 25px;
+  }
+  
+  
+
+  input[type=text],input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #3972ec;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:#3972ec;
+}
+
+.container_form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
